@@ -1,0 +1,14 @@
+{
+    "name": "baguette/fizzbuzz",
+    "description": "Modern FizzBuzz implementation for PHP 7",
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Baguette\\FizzBuzz\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "baguette/copipe-iter": "~0.0.2"
+    }
+}
